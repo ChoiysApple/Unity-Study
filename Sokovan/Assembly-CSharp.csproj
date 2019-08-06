@@ -61,7 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\ItemBox.cs" />
     <Compile Include="Assets\Scenes\Player.cs" />
+    <Compile Include="Assets\Scenes\Rotater.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ChoiysApple/Documents/GitHub/Unity-Study/Sokovan/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
