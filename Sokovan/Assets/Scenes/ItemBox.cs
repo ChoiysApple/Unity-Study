@@ -5,6 +5,8 @@ using UnityEngine;
 public class ItemBox : MonoBehaviour {
 
 
+    public bool isOverlaped = false;
+
     private Renderer myRenderer;
 
     public Color touchColor;
@@ -25,6 +27,7 @@ public class ItemBox : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "EndPoint") {
+            isOverlaped = true;
             myRenderer.material.color = touchColor;
         }
        
@@ -35,6 +38,7 @@ public class ItemBox : MonoBehaviour {
     {
         if (other.tag == "EndPoint")
         {
+            isOverlaped = false;
             myRenderer.material.color = originalColor;
         }
     }
@@ -43,6 +47,7 @@ public class ItemBox : MonoBehaviour {
     {
         if(other.tag == "Endpoint")
         {
+            isOverlaped = true;
             myRenderer.material.color = touchColor;
         }
     }

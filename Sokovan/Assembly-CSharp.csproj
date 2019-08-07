@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\GameManager.cs" />
     <Compile Include="Assets\Scenes\ItemBox.cs" />
     <Compile Include="Assets\Scenes\Player.cs" />
     <Compile Include="Assets\Scenes\Rotater.cs" />
