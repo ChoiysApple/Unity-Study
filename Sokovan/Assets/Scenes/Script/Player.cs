@@ -8,6 +8,7 @@ public class Player : MonoBehaviour {
 
     public float speed = 10f;
     private Rigidbody playerRigidbody;
+    public GameManager manager;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +18,11 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (manager.isGameOver)
+        {
+            return;
+        }
 
         // user input
         /* <- or A : return -1   
