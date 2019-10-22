@@ -2,6 +2,9 @@
 
 This repository contains basics about C# language and Unity 
 
+Based on Udemy lecture **"retr0의 유니티 (Unity C#) 게임 프로그래밍 에센스"**
+https://www.udemy.com/course/retr0-unity/
+
 
 ### Tutorials
 [Basics](./Documents/Basics-3f2d3aa2-a53b-414e-8d82-7789c9fbcc61.md)
