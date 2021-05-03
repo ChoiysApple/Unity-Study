@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{EBDB2F3E-F766-1FC4-AB1B-0720AA117BB8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Script/ItemBox.cs">
+    <Files>
+      <File FileName="Assets/Scenes/Script/ItemBox.cs" Line="21" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sokovan" expanded="True">
+            <Node name="Assets" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e32828fe-7f1f-4442-863d-54e53bc433e7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
